@@ -1,3 +1,26 @@
+## Version 1.4.4
+
+_September 19, 2026_
+
+### 🐛 Bug Fixes
+
+- **Rendering** — Fixed janky rendering when editing screenshots
+- **Menu bar** _(macOS only)_ — Fixed the menu bar blinking when editing screenshots
+
+## Version 1.4.3
+
+_July 25, 2026_
+
+### 🔍 Misc. Updates
+
+- **OCR on pinned window** — Improved OCR text detection and added a "Copy All Text" button on the pinned screenshot window
+
+### 🐛 Bug Fixes
+
+- **Image export** _(Mac only)_ — Fixed exported images getting stretched on MacBook displays
+- **Pinned window zoom** _(macOS only)_ — Fixed zoom controls causing the pinned window to expand to full height or width
+- **Magnifier annotation** — Fixed the connector line disconnecting from rounded corners, and fixed the gap between the magnifier and its radius
+
 ## Version 1.4.2
 
 _June 28, 2026_

@@ -1,3 +1,33 @@
+## Version 1.4.5
+
+_October 31, 2026_
+
+### New
+- **Undo and redo in the editor.** Each tab has its own history, covering annotations and layout changes like padding, background, border, crop and frame. Use Ctrl/⌘+Z to undo, and Ctrl/⌘+Shift+Z (or Ctrl+Y on Windows) to redo. There are also Undo/Redo buttons in the toolbar.
+- **Upload to S3.** Send a screenshot from the editor to your own Amazon S3 or S3-compatible bucket (Cloudflare R2, Backblaze B2, DigitalOcean Spaces, Wasabi, MinIO). The link is copied to your clipboard. Set up buckets in **Settings → S3 Upload**. Uploads go straight from your computer to your bucket. Requires a Basic or Pro license.
+- **Keyboard shortcuts in pinned windows:**
+  - Copy image: Ctrl/⌘+C
+  - Copy all text: Ctrl/⌘+Shift+C
+  - Open in editor: Ctrl/⌘+E
+  - Zoom in / out: Ctrl/⌘+= / −
+  - Original size: Ctrl/⌘+0
+  - Close: Esc or Ctrl/⌘+W
+
+### Improved
+- **Redesigned capture preview.** It now shows as a thumbnail card in the bottom-left corner. Hover over it to Copy, Edit, Pin or Show in Folder, or use the shortcuts Ctrl/⌘+C, Ctrl/⌘+E, Ctrl/⌘+P and Esc.
+- The capture preview appears faster after taking a screenshot.
+- Zooming in pinned windows is now smooth.
+- Settings, Permissions, Licenses and Export now open in their own windows.
+- License activation is now in **Settings → License**, which also shows your plan, email and this device.
+
+### Fixed
+- The zoom percentage in pinned windows now updates when you zoom with shortcuts or Ctrl/⌘+scroll.
+- On Windows, a screenshot file is no longer locked while its capture preview is open.
+
+### Changes
+- macOS: capturing all displays no longer asks which display to keep.
+- macOS 12 or later is now required.
+
 ## Version 1.4.4
 
 _September 19, 2026_

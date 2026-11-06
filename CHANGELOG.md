@@ -1,3 +1,20 @@
+## Version 1.4.6
+
+_November 7, 2026_
+
+### New
+- **Capture History.** Browse all your past screenshots in one place, grouped by day. Open any of them in the editor, pin it to the screen, copy it, show it in Finder/Explorer, or delete it. Open it from the home page, the tray menu, or the File menu.
+- **Search by text in screenshots.** Type a word you remember seeing and Capture History finds the screenshots containing it. Text is read automatically on your computer and never leaves it.
+- **Thumbnail cache setting.** Settings › Files shows how much space Capture History thumbnails use, with a button to clear them.
+
+### Improved
+- Pinning a screenshot straight from a capture now shows it exactly as captured, with no added background, padding, corners or shadow.
+- On macOS, a pinned window's controls now appear as soon as you hover over it, even when it isn't focused. The close button only shows while hovering.
+
+### Fixed
+- Fixed a crash that could happen when using "Open in Editor" from a pinned window. It now reliably opens the editor, or adds a new tab if the editor is already open.
+- On macOS, pinned windows now keep the screenshot's proportions when you resize them.
+
 ## Version 1.4.5
 
 _October 31, 2026_
